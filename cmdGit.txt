@@ -37,11 +37,12 @@ git tag v1.1.1
 
 git remote origin https://github.com/emnd/formationGit.git  --------->pour relier local et remote
 
-					RECAP
-	Local 														Remote (Distant)
+					RECAPITULATION
+	Local 											|		Remote (Distant)
+	---------------------------------------------------------------------------------------------------------------------------------------
 	1- creation dossier projet						|			1- creation d'un projet
-	2- git init										|			2- connexion avec local (git remote -v ;  git add remote origin url_Remote)
-	3- commit										|			3- git push
+	2- git init										|			2- connexion avec local (git remote -v ;  git remote add origin url_Remote)
+	3- commit										|			3- git push faire d'abord git pull origin master
 	4- choix de creation							|			4- git branch -av
 		git branch nomBranche						|
 		git checkout nomBranche						|
