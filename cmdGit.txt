@@ -1,0 +1,17 @@
+git config --global user.name "MND15281"       				------> userName
+git config --global user.email moussa85ndiaye@gmail.com  		------> email
+
+git config get --proxy 				------> connaitre le proxy s'il est configuré 
+git config set --proxy  "http://login%20password@domain:port"    		------> configuration du proxy
+ 
+git add  .                       ------> pour l'ajout de tous les nouveaux fichiers
+
+git init   	------> transformer un dossier en reposeprojitory git
+git clone <url_Remote> 		--------> cloner un projet git remote en local
+git branch nomBranche   -------------> créer une branche
+git pull nomBrancheDistant
+git push(fetch || merge)
+git status
+
+git checkout nomBranche
+git --help
