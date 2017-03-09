@@ -30,3 +30,25 @@ git remove featureNomBranche ------------>supprimer une branche
 git branch -av    --------> toutes les branches
 
 git mergetool
+
+git hist 		------> historique
+
+git tag v1.1.1
+
+git remote origin https://github.com/emnd/formationGit.git  --------->pour relier local et remote
+
+					RECAP
+	Local 														Remote (Distant)
+	1- creation dossier projet						|			1- creation d'un projet
+	2- git init										|			2- connexion avec local (git remote -v ;  git add remote origin url_Remote)
+	3- commit										|			3- git push
+	4- choix de creation							|			4- git branch -av
+		git branch nomBranche						|
+		git checkout nomBranche						|
+		git commit -m "message de commit"			|
+		git status									|
+		git log										|
+		git pull									|
+		git rebase									|
+		git merge									|
+		git diff file1 file2						|
