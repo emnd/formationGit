@@ -5,13 +5,20 @@ git config get --proxy 				------> connaitre le proxy s'il est configuré
 git config set --proxy  "http://login%20password@domain:port"    		------> configuration du proxy
  
 git add  .                       ------> pour l'ajout de tous les nouveaux fichiers
+git add  nomFichier
+git add  /css ----------------> pour tous les fichiers dans le dossier css
+git add  *.html ----------------> pour tous les fichiers .html
 
 git init   	------> transformer un dossier en reposeprojitory git
 git clone <url_Remote> 		--------> cloner un projet git remote en local
 git branch nomBranche   -------------> créer une branche
 git pull nomBrancheDistant
-git push(fetch || merge)
+git push( rebase => fetch || merge)
 git status
 
 git checkout nomBranche
-git --help
+git --help 
+
+git commit -m "Mon premier commit git :)"
+
+git reset head nomfichier ---------------> annuler un commit d'un fichier
