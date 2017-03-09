@@ -53,4 +53,5 @@ git remote origin https://github.com/emnd/formationGit.git  --------->pour relie
 		git merge									|
 		git diff file1 file2						|
 		
-j'ai fait des mopdifications à fiare ici
+j'ai des mopdifications à fiare ici
+hgdhfdjj
