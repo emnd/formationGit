@@ -26,3 +26,5 @@ git reset head nomfichier ---------------> annuler un commit d'un fichier
 git checkout nomBrancheDedevelop -----------> switcher
 git merge featureNomBranche ----------> ramene toutes les modifications de featureNomBranche à nomBrancheDedevelop
 git remove featureNomBranche ------------>supprimer une branche
+
+git branch -av    --------> toutes les branches
