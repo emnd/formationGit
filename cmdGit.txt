@@ -52,3 +52,4 @@ git remote origin https://github.com/emnd/formationGit.git  --------->pour relie
 		git rebase									|
 		git merge									|
 		git diff file1 file2						|
+		
