@@ -28,3 +28,5 @@ git merge featureNomBranche ----------> ramene toutes les modifications de featu
 git remove featureNomBranche ------------>supprimer une branche
 
 git branch -av    --------> toutes les branches
+
+git mergetool
